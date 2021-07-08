@@ -1,0 +1,54 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-dialog-buttons .ui-draggable{
+    height: auto;
+    width: 300px;
+    top: 30%;
+    left: 8%;
+   } 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-dialog-buttons .ui-draggable{
+        top:21%;
+        left: 32%;
+       } 
+
+  
+    }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-dialog-buttons .ui-draggable{
+        width: 500px;
+        top: 50%;
+        left: 30%;
+       } 
+
+  
+   
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {  
+    .ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-dialog-buttons .ui-draggable{
+        width: 600px;
+        top: 56%;
+        left: 25%;    
+       } 
+
+}
+
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .ui-dialog .ui-corner-all .ui-widget .ui-widget-content .ui-front .ui-dialog-buttons .ui-draggable{
+        width: 600px;
+        top: 39%;
+        left: 36%;  
+       } 
+}
+
